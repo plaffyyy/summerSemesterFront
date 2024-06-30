@@ -17,5 +17,6 @@ export default {
       tsconfig: "./tsconfig.json"
     }),
     terser()
-  ]
+  ],
+  base: "summerSemesterFront"
 };
