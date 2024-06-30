@@ -1,6 +1,7 @@
 {
     "name": "summerSemesterFront",
     "version": "1.0.0",
+    "homepage": "https://plaffyyy.github.io/summerSemesterFront",
     "main": "index.ts",
     "scripts": {
         "build": "rollup --config rollup.config.mjs"
