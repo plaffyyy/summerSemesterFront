@@ -1,0 +1,22 @@
+{
+    "name": "summerSemesterFront",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "scripts": {
+        "build": "rollup --config rollup.config.mjs"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^22.0.0",
+        "@rollup/plugin-node-resolve": "^14.0.0",
+        "@rollup/plugin-terser": "^0.1.0",
+        "rollup": "^2.68.0",
+        "rollup-plugin-typescript2": "^0.32.1",
+        "tslib": "^2.3.0",
+        "typescript": "^5.0.4"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "moment": "^2.30.1"
+    }
+}

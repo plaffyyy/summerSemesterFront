@@ -12,8 +12,9 @@ header {
     border-radius: 30px;
     border-width: 4px;
     width: 1000px;
-    height: 580px;
+    height: 630px;
     padding: 60px;
+    
 }
 
 img {
@@ -35,7 +36,7 @@ p {
     color:antiquewhite;
 }
 .butt {
-    bottom: 30%;
+    bottom: 20%;
     position: relative;
     padding-left: 55px;
 }
