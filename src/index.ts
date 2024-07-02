@@ -36,7 +36,7 @@ async function getComicData(id: number): Promise<ComicData> {
     return comicData;
 }
 
-document.addEventListener('DOMContentLoaded',async function (e) {
+document.addEventListener('DOMContentLoaded',async function () {
     const idData = await getIdData();
     const comicData = await getComicData(idData);
     comicImage.src = comicData.img;
