@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header>
       <div className="foto">
-        <img className="fo" src="/img/myFoto.jpg" alt="myfoto" />
+        <img className="fo" src="/summerSemesterFront/img/myFoto.jpg" alt="myfoto" />
       </div>
       <div className="icons">
         <a href="https://t.me/plaffyyy">
