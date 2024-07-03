@@ -50,7 +50,7 @@ const CheckImage: React.FC = () => {
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return <div>If you have slow internet connection, please try again</div>;
   }
 
   if (!comicData) {
