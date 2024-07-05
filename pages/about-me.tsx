@@ -8,7 +8,7 @@ const AboutMe: React.FC = () => {
       <header>
             <h1>Info about me:</h1> 
             <ol>
-                <li>I'm student of Innopolis University in the first year of the Bachelor's degree in group DSAI-05.</li>
+                <li>I&apos;m student of Innopolis University in the first year of the Bachelor&apos;s degree in group DSAI-05.</li>
                 <li>B2 English technical level.</li>
                 <li>Stack: Java(Java Spring Boot), Python, C++, HTML, CSS. Databases: PostgreSQL.</li>
                 <li>I like to do the folowing sports: basketball, soccer, volleyball, tennis, arm wrestling and goint to gym.</li>

@@ -10,8 +10,8 @@ const Portfolio: React.FC = () => {
             <h2>Hackathons:</h2>
             <ol>
                 <li>Winner of the National Data Analysis Olympiad DANO (Hackathon stage).</li>
-                <li>3rd place in 2022 at the international hackathon "IT-Education Hack", festival: "TechnoStrelka", Direction: VR/AR (team hackathon).</li>
-                <li>3rd place in 2023 at the international hackathon "IT-Education Hack", festival: "TechnoStrelka", Direction: AR (team hackathon).</li>
+                <li>3rd place in 2022 at the international hackathon &quot;IT-Education Hack&quot;, festival: &quot;TechnoStrelka&quot;, Direction: VR/AR (team hackathon).</li>
+                <li>3rd place in 2023 at the international hackathon &quot;IT-Education Hack&quot;, festival: &quot;TechnoStrelka&quot;, Direction: AR (team hackathon).</li>
             </ol>    
             <h2>Projects:</h2>   
             <ol> 
