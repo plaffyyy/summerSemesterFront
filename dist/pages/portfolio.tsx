@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="portfol.css">
-    </head>
-    <body>
-        <header>
+// src/pages/Portfolio.tsx
+import React from 'react';
+import Back from '../components/Back';
+
+const Portfolio: React.FC = () => {
+  return (
+    <div>
+      <header>
             <h1>My projects and achievements:</h1>
             <h2>Hackathons:</h2>
             <ol>
@@ -17,16 +17,10 @@
             <ol> 
                 <li>Azimov Lab: microservice for converting json to pdf.</li>
             </ol>
-            <div class="arrow">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="butt">
-                <form action="index.html">
-                    <button class="backButton"></button>
-                </form>
-            </div>
         </header>
-    </body>
-</html>
+        <Back/>
+    </div>
+  );
+};
+
+export default Portfolio;

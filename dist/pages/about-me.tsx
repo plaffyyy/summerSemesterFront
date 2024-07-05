@@ -1,5 +1,6 @@
 // src/pages/AboutMe.tsx
 import React from 'react';
+import Back from '../components/Back';
 
 const AboutMe: React.FC = () => {
   return (
@@ -14,9 +15,8 @@ const AboutMe: React.FC = () => {
                 <li>Can working with windows and linux at the basic level.</li>
                 <li>I like to communicate with people and establish relationships.</li>
             </ol>
-
-            
         </header>
+        <Back/>
     </div>
   );
 };

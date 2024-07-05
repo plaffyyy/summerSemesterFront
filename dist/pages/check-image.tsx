@@ -1,7 +1,7 @@
 // src/pages/CheckImage.tsx
 import React, { useEffect, useState } from 'react';
 import moment from 'moment';
-import './lab2.css'
+import Back from '../components/Back';
 
 export interface ComicData {
   alt: string;
@@ -67,6 +67,7 @@ const CheckImage: React.FC = () => {
         <img id="comicImage" src={comicData.img} alt={comicData.alt} />
         <p id="dateOfImage">{fromMoment.toString()}</p>
       </header>
+      <Back/>
     </div>
   );
 };
