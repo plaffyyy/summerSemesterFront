@@ -2,7 +2,5 @@
 module.exports = {
   basePath: '',
   assetPrefix: '',
-  output: {
-    export: true,
-  },
+  output: 'export'
 };
