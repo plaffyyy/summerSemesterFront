@@ -5,20 +5,20 @@ const Header: React.FC = () => {
   return (
     <header>
       <div className="foto">
-        <img className="fo" src=" /img/myFoto.jpg" alt="myfoto" />
+        <img className="fo" src="/summerSemesterFront/img/myFoto.jpg" alt="myfoto" />
       </div>
       <div className="icons">
         <a href="https://t.me/plaffyyy">
-          <img src="/img/icons8-телеграмма-app-48.png" alt="Telegram" />
+          <img src="/summerSemesterFront/img/icons8-телеграмма-app-48.png" alt="Telegram" />
         </a>
         <a href="https://leetcode.com/u/Plaffyyy/">
-          <img src="/img/icons8-level-up-your-coding-skills-and-quickly-land-a-job-48.png" alt="LeetCode" />
+          <img src="/summerSemesterFront/img/icons8-level-up-your-coding-skills-and-quickly-land-a-job-48.png" alt="LeetCode" />
         </a>
         <a href="https://instagram.com/plaffyyy">
-          <img src="/img/icons8-instagram-48.png" alt="Instagram" />
+          <img src="/summerSemesterFront/img/icons8-instagram-48.png" alt="Instagram" />
         </a>
         <a href="https://github.com/plaffyyy">
-          <img src="/img/icons8-github-48.png" alt="GitHub" />
+          <img src="/summerSemesterFront/img/icons8-github-48.png" alt="GitHub" />
         </a>
       </div>
       <nav>
