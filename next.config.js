@@ -2,4 +2,5 @@
 module.exports = {
   basePath: '/summerSemesterFront',
   assetPrefix: '',
+  distDir: 'out',
 };
