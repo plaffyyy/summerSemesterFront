@@ -3,4 +3,5 @@ module.exports = {
   basePath: "",
   assetPrefix: "",
   output: "standalone",
+  distDir: "out",
 };
