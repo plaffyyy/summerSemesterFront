@@ -1,17 +1,26 @@
 // .eslintrc.cjs
 module.exports = {
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2020,
-    sourceType: 'module',
+    sourceType: "module",
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ["@typescript-eslint", "react", "prettier"],
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'next/core-web-vitals',
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
   ],
   rules: {
-    // Ваши правила ESLint
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": "off",
+  },
+  settings: {
+    react: {
+      version: "detect",
+    },
   },
 };
