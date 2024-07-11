@@ -1,6 +1,6 @@
 // next.config.js
 module.exports = {
-  basePath: "",
+  basePath: "/summerSemesterFront",
   assetPrefix: "",
   output: "standalone",
   distDir: "out",
